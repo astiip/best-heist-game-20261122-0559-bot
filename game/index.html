@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>MIDNIGHT MINT — a heist game</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><circle cx='8' cy='8' r='7' fill='%23f2c14e'/></svg>">
+<style>
+  html, body { margin: 0; padding: 0; background: #07081a; height: 100%; }
+  body { display: flex; flex-direction: column; align-items: center; justify-content: center; font-family: sans-serif; }
+  canvas { width: min(1280px, 100vw); height: auto; max-height: calc(100vh - 34px); display: block; background: #151b31; }
+  #status { color: #9aa5c8; font-size: 13px; padding: 8px 12px; text-align: center; }
+</style>
+</head>
+<body>
+<canvas id="game" width="1280" height="720"></canvas>
+<div id="status">MIDNIGHT MINT — loading…</div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
